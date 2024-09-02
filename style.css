@@ -134,13 +134,18 @@ display: flex; */
 .btn input{
 border: none;
 border-radius:5px;
-width: 120px;
+width: 60px;
 height: 20px;
 text-align: center;
 
+padding-left:3%;
+font-family: G7Segment;
+color: rgb(54, 53, 53);
+background-color: #6A9C89;
 }
-.btn input:focus{ 
+/* .btn input:active{ 
 border: none;
-}
+color: balck;
+} */
 
 
