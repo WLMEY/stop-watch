@@ -17,7 +17,7 @@ const App=()=>{
     setTimeout(() => {
       sett((t) => t + 1);
     }, 1000);
-    
+
 
 
 
