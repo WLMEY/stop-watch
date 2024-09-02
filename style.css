@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #E9EFEC;
+}
+body{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+.continer{
+    min-width: 50%;
+    min-height: 40%;
+    
+    background-color: #16423C;
+    border-radius: 10px;
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+.continer_watch{
+    background-color: #16423C;
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+.btn{
+    width: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+}
+button{
+    width: 10vw;
+    height: 4vh;
+    border: none;
+    border-radius: 5px;
+    background-color: gray;
+    font-size: 22px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: rgb(151, 150, 150);
+
+}
+.stop_watch{
+    background-color: #6A9C89;
+    width: 80%;
+    height: 70%;
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:row-reverse;
+
+}
+.stop_watch h1{
+    font-weight:900;
+    color: rgb(54, 53, 53);
+    font-size: 70px;
+    font-family:G7Segment,sans-serif;
+}
+@font-face {
+    font-family: 'G7Segment';
+    src: url('./G7_Segment_7a.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+.continer_line{
+    /* background-color: rebeccapurple; */
+    width: 100%;
+    height: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column;
+}
+.time_line{
+    position: relative;
+    width: 90%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.time_line h3{
+    position: absolute;
+    right: 5px;
+    top: -5px;
+}
+.time_line span{
+    position: absolute;
+    left: 5px;
+    top: -5px;
+    color: red;
+    font-size: 22px;
+    display: block;
+}
+.line_1, .line_2{
+    width: 100%;
+    height: 10px;
+    /* background-color: #82B285; */
+    position: absolute;
+    border-radius: 10px;
+    left: 0;
+}
+.line_1{
+    z-index: 1;
+    background-color: #C4DAD2;
+
+}
+.line_2{
+    z-index: 2;
+    background-color: #6A9C89;
+    width:70%;
+}
+.btn{
+/* width: 100%;
+display: flex; */
+/* justify-content: right; */
+}
+.btn input{
+border: none;
+border-radius:5px;
+width: 120px;
+height: 20px;
+text-align: center;
+
+}
+.btn input:focus{ 
+border: none;
+}
+
+
