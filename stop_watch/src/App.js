@@ -51,11 +51,20 @@ const App = () => {
         <Start />
       }
     }
+
     function time_line(){
       const time_line_100=document.getElementById("time_line_100");
       const num = document.getElementById("input").value;
       const x=Math.floor((total_min*100)/num);
       time_line_100.textContent=`${x}%`
+    }
+    function start_btn(){
+      // const str_btn=document.getElementById("str_btn")
+      
+    }
+    function stop_btn(){
+      // const stp_btn=document.getElementById("stp_btn")
+
     }
 
 
@@ -83,8 +92,8 @@ const App = () => {
           <h1>{Math.floor(hr)}</h1>
         </div>
         <div className="btn">
-          <button>start</button>
-          <button>stop</button>
+          <button id='str_btn'>start</button>
+          <button id='stp_btn'>stop</button>
         </div>
       </div>
       <div className="continer_line">
