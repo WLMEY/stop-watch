@@ -4,7 +4,7 @@
     box-sizing: border-box;
     color: #E9EFEC;
 }
-body{
+body{ 
     
     display: flex;
     justify-content: center;
@@ -17,6 +17,7 @@ body{
 .continer{
     min-width: 50%;
     min-height: 40%;
+    max-width: 50vh;
     width: 50vw;
     height: 40vh;
 
@@ -112,7 +113,7 @@ button:hover{
     top: -5px;
     color: red;
     font-size: 22px;
-    display: block;
+    display: none;
 }
 .line_1, .line_2{
     width: 100%;
